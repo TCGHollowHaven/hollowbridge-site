@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Hollow Bridge is a live stream automation app for Twitch and TikTok creators." />
+  <title>Hollow Bridge | Stream Automation for Creators</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Hollow Bridge home">
+      <span class="brand-mark">🌉</span>
+      <span>Hollow Bridge</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#overlays">Overlays</a>
+      <a href="#download">Download</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Built for live creators</p>
+        <h1>Connect your stream events to sounds, overlays, automation, and reactions.</h1>
+        <p class="hero-text">
+          Hollow Bridge helps Twitch and TikTok creators turn chat commands, gifts, follows, likes, bits, and other stream moments into custom actions.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#download">Download Hollow Bridge</a>
+          <a class="btn btn-secondary" href="#features">See Features</a>
+        </div>
+        <p class="small-note">Windows app. OBS and TikTok Live Studio workflows supported.</p>
+      </div>
+      <div class="hero-panel" aria-label="Hollow Bridge feature preview">
+        <div class="status-card">
+          <span class="status-dot"></span>
+          <span>TikTok / Twitch events</span>
+        </div>
+        <div class="action-stack">
+          <div class="action-item">🎁 Gift → Play custom sound</div>
+          <div class="action-item">💬 Command → Spin wheel overlay</div>
+          <div class="action-item">⭐ Follow → Trigger avatar reaction</div>
+          <div class="action-item">🎵 Song request → Queue playback</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section-wrap">
+      <p class="eyebrow">Features</p>
+      <h2>Everything starts with Events and Actions.</h2>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>Actions + Events</h3><p>Create Actions, then trigger them from TikTok or Twitch events such as gifts, chat commands, follows, likes, shares, bits, and more.</p></article>
+        <article class="feature-card"><h3>Custom Overlays</h3><p>Use goals, gift overlays, emoji effects, hype moments, wheel overlays, Magic 8 Ball, and other visual tools in OBS or TikTok Live Studio.</p></article>
+        <article class="feature-card"><h3>Local TTS</h3><p>Use local/offline TTS workflows with Piper and viewer voice assignment options for more personalized stream interactions.</p></article>
+        <article class="feature-card"><h3>Song Requests</h3><p>Manage a song queue, requests, commands, and playback controls from inside Hollow Bridge.</p></article>
+        <article class="feature-card"><h3>Streamer.bot + OBS</h3><p>Connect to Streamer.bot and OBS WebSocket to trigger external actions, scene changes, and other stream automation.</p></article>
+        <article class="feature-card"><h3>Creator-Focused Tools</h3><p>Designed around stream workflows instead of generic automation, with future support planned for more interactive creator tools.</p></article>
+      </div>
+    </section>
+
+    <section id="overlays" class="section-wrap split-section">
+      <div>
+        <p class="eyebrow">OBS + TikTok Live Studio</p>
+        <h2>Capture overlays your way.</h2>
+        <p>
+          OBS can use Browser Source URLs. TikTok Live Studio can use dedicated Hollow Bridge capture windows when browser links are unreliable.
+        </p>
+      </div>
+      <div class="bullet-panel">
+        <div>✅ Transparent capture windows</div>
+        <div>✅ Goal and gift widgets</div>
+        <div>✅ Triggered screen overlays</div>
+        <div>✅ TikTok Live Studio window capture workflow</div>
+      </div>
+    </section>
+
+    <section id="download" class="section-wrap download-box">
+      <p class="eyebrow">Download</p>
+      <h2>Get the latest Hollow Bridge release.</h2>
+      <p>
+        The download button can point to your GitHub Releases page once your public release is ready.
+      </p>
+      <a class="btn btn-primary" href="https://github.com/TCGHollowHaven/hollowbridge/releases" rel="noopener">View Releases</a>
+      <p class="small-note">Update this link later if you want downloads handled through a dedicated page or subscription system.</p>
+    </section>
+
+    <section id="support" class="section-wrap split-section">
+      <div>
+        <p class="eyebrow">Support</p>
+        <h2>Need help setting up?</h2>
+        <p>
+          Add your preferred contact, Discord, Patreon, support email, or documentation link here when ready.
+        </p>
+      </div>
+      <div class="support-card">
+        <h3>Coming soon</h3>
+        <p>Setup guides, release notes, and support links can be added as the site grows.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Hollow Bridge.</span>
+    <span>Built for creators.</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
