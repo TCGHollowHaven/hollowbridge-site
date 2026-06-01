@@ -1,10 +1,16 @@
 # Hollow Bridge Site
 
-Official website and landing page for Hollow Bridge, a creator-focused live stream automation app for Twitch and TikTok(with YouTube support planned).
+Official website and landing page for Hollow Bridge, a creator-focused live stream automation app.
 
-## Cloudflare Workers deploy settings
+Hollow Bridge currently focuses on Twitch and TikTok live stream workflows, with support for additional live streaming platforms planned for the future.
 
-Project name: `hollowbridge-site`
+## Cloudflare Workers / Pages deploy settings
+
+Project name:
+
+```text
+hollowbridge-site
+```
 
 Deploy command:
 
