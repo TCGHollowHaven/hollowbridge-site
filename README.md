@@ -1,6 +1,6 @@
 # Hollow Bridge Site
 
-Official website and landing page for Hollow Bridge, a creator-focused live stream automation app for Twitch and TikTok.
+Official website and landing page for Hollow Bridge, a creator-focused live stream automation app for Twitch and TikTok(with YouTube support planned).
 
 ## Cloudflare Workers deploy settings
 
