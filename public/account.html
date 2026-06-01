@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Account & Patreon Access | Hollow Bridge</title>
+  <meta name="description" content="Subscribe, verify Patreon access, and download Hollow Bridge." />
+  <meta name="theme-color" content="#0b0f1a" />
+  <link rel="icon" href="./assets/icon.ico" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html#top" aria-label="Hollow Bridge home">
+      <img class="brand-icon" src="./assets/icon.ico" alt="" />
+      <span class="brand-text">Hollow Bridge</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="./index.html#features">Features</a>
+      <a href="./index.html#platforms">Platforms</a>
+      <a href="./index.html#voice">Voice Changer</a>
+      <a href="./index.html#songs">Songs</a>
+      <a href="./about.html">About</a>
+      <a href="./account.html">Account</a>
+      <a href="./index.html#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="page-hero section-pad">
+      <div class="hero-bg glow-one"></div>
+      <div class="hero-bg glow-two"></div>
+
+      <div class="page-hero-content">
+        <p class="eyebrow">Patreon access</p>
+        <h1><span class="title-gradient">Verify</span> your Hollow Bridge subscription.</h1>
+        <p class="hero-lead">
+          Hollow Bridge will use Patreon subscription verification to unlock app access.
+          The <strong>Hollow Bridge Access</strong> tier is the tier that unlocks the app.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="https://patreon.com/hollowbridge" target="_blank" rel="noopener">Subscribe on Patreon</a>
+          <a class="btn secondary disabled" href="#" aria-disabled="true">Log in with Patreon — Coming Soon</a>
+        </div>
+
+        <div class="hero-note">
+          Patreon login and automatic verification are being prepared. For now, you can subscribe on Patreon and check back here as the verification system is completed.
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad account-section">
+      <div class="account-grid">
+        <article class="about-card account-status-card">
+          <p class="eyebrow">Subscription tiers</p>
+          <h2>Choose the right tier.</h2>
+
+          <div class="tier-list">
+            <div class="tier-row support">
+              <strong>$3 / month — Bridge Supporter</strong>
+              <span>Support-only tier. Does not unlock Hollow Bridge app access.</span>
+            </div>
+
+            <div class="tier-row support">
+              <strong>$5 / month — Hollow Bridge Support+</strong>
+              <span>Extra support-only tier. Does not unlock Hollow Bridge app access.</span>
+            </div>
+
+            <div class="tier-row access">
+              <strong>$15 / month — Hollow Bridge Access</strong>
+              <span>The app access tier. Active members in this tier will be eligible to verify and unlock Hollow Bridge.</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <p class="eyebrow">Verification status</p>
+          <h2>Account verification is coming next.</h2>
+          <p>
+            The next build step is connecting this page to a secure Cloudflare Worker that will handle Patreon login,
+            subscription checking, and app unlock tokens.
+          </p>
+          <p>
+            Once verification is live, this section will show whether your Patreon account has an active
+            <strong>Hollow Bridge Access</strong> subscription.
+          </p>
+
+          <div class="status-panel pending">
+            <strong>Status:</strong>
+            <span>Patreon verification backend not connected yet.</span>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <p class="eyebrow">Download behavior</p>
+          <h2>Downloads will unlock after verification.</h2>
+          <p>
+            When the Patreon verification system is active, users with the $15 Hollow Bridge Access tier will be able
+            to access the download area from this page.
+          </p>
+          <p>
+            The desktop app will also verify access when opened, so sharing the installer will not bypass subscription access.
+          </p>
+
+          <div class="download-actions account-actions">
+            <a class="btn primary" href="https://patreon.com/hollowbridge" target="_blank" rel="noopener">Open Patreon</a>
+            <a class="btn secondary" href="./index.html#download">Back to Download Info</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Hollow Bridge</strong>
+      <span>Live stream automation for creators.</span>
+    </div>
+    <div class="footer-links">
+      <a href="./about.html">About</a>
+      <a href="./account.html">Account</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

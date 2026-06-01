@@ -2,18 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Hollow Bridge | Live Stream Automation for Creators</title>
   <meta name="description" content="Hollow Bridge is a creator-focused live stream automation app for Twitch, TikTok, and future live streaming platforms." />
   <meta name="theme-color" content="#0b0f1a" />
-  <meta property="og:title" content="Hollow Bridge" />
-  <meta property="og:description" content="Bridge live stream events into overlays, sounds, TTS, automations, and creator tools." />
-  <meta property="og:type" content="website" />
+  <link rel="icon" href="./assets/icon.ico" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Hollow Bridge home">
+    <a class="brand" href="./index.html#top" aria-label="Hollow Bridge home">
       <img class="brand-icon" src="./assets/icon.ico" alt="" />
       <span class="brand-text">Hollow Bridge</span>
     </a>
@@ -23,17 +21,18 @@
     </button>
 
     <nav class="site-nav" aria-label="Primary navigation">
-      <a href="#features">Features</a>
-      <a href="#platforms">Platforms</a>
-      <a href="#voice">Voice Changer</a>
-      <a href="#songs">Songs</a>
+      <a href="./index.html#features">Features</a>
+      <a href="./index.html#platforms">Platforms</a>
+      <a href="./index.html#voice">Voice Changer</a>
+      <a href="./index.html#songs">Songs</a>
       <a href="./about.html">About</a>
-      <a href="#download">Download</a>
+      <a href="./account.html">Account</a>
+      <a href="./index.html#download">Download</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero section-pad">
+<section class="hero section-pad">
       <div class="hero-bg glow-one"></div>
       <div class="hero-bg glow-two"></div>
 
@@ -206,19 +205,20 @@
     <section id="download" class="section-pad download-panel">
       <div class="section-heading">
         <p class="eyebrow">Download</p>
-        <h2>Hollow Bridge is actively being built.</h2>
+        <h2>Hollow Bridge access is handled through Patreon.</h2>
         <p>
-          Public downloads and subscription access are being prepared. Until then, Hollow Bridge is under active testing and development.
+          Hollow Bridge requires an active <strong>Hollow Bridge Access</strong> subscription through Patreon.
+          The $3 and $5 tiers are support-only tiers and do not unlock app access.
         </p>
       </div>
 
       <div class="download-actions">
-        <a class="btn primary disabled" href="#" aria-disabled="true">Download Coming Soon</a>
-        <a class="btn secondary" href="#features">See What’s Included</a>
+        <a class="btn primary" href="./account.html">Verify / Download</a>
+        <a class="btn secondary" href="https://patreon.com/hollowbridge" target="_blank" rel="noopener">Subscribe on Patreon</a>
       </div>
 
       <p class="small-print">
-        Hollow Bridge is an independent creator tool. Platform names are used only to describe compatibility and are not endorsements.
+        Patreon login and automatic subscription verification are being prepared. Once active, the Account page will let subscribers verify access and download Hollow Bridge.
       </p>
     </section>
   </main>
@@ -228,7 +228,11 @@
       <strong>Hollow Bridge</strong>
       <span>Live stream automation for creators.</span>
     </div>
-    <div class="footer-links"><a href="./about.html">About</a><a href="#top">Back to top</a></div>
+    <div class="footer-links">
+      <a href="./about.html">About</a>
+      <a href="./account.html">Account</a>
+      <a href="#top">Back to top</a>
+    </div>
   </footer>
 
   <script src="./script.js"></script>
